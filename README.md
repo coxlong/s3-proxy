@@ -1,1 +1,1 @@
-# go-cos
+# s3-proxy
