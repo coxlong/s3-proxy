@@ -12,3 +12,6 @@ Dockerfile
 
 # Ignore config files
 config.yaml
+
+# Ignore CI files
+.github/
