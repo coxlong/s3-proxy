@@ -12,7 +12,7 @@ RUN go build -o s3-proxy .
 # Runtime stage
 FROM alpine:latest
 
-RUN apk --no-cache add ca-certificates
+RUN apk --no-cache add ca-certificates tzdata
 WORKDIR /app
 
 COPY --from=builder /app/s3-proxy .
