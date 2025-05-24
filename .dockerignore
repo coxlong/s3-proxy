@@ -1,0 +1,14 @@
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore documentation
+README.md
+*.md
+
+# Ignore Docker files
+Dockerfile
+.dockerignore
+
+# Ignore config files
+config.yaml
